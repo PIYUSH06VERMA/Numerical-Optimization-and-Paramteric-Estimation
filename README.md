@@ -80,3 +80,29 @@ The Newton-Raphson algorithm successfully converged to the global maximum in 5 i
 | --- | --- | --- |
 | **Non-Parametric Bootstrap** | (2.121391, 3.674640) | (1.733191, 6.398400)|
 | **Parametric Bootstrap** | (1.836909, 3.969332)| (1.703052, 5.958413)|
+
+## Installation and Usage
+
+To run this project locally, follow these steps:
+
+**Clone the Repository**  
+Open your terminal or command prompt and run the following command to download the project:
+
+```bash
+git clone [https://github.com/PIYUSH06VERMA/Numerical-Optimization-and-Paramteric-Estimation.git](https://github.com/PIYUSH06VERMA/Numerical-Optimization-and-Paramteric-Estimation.git)
+```
+* Environment Setup
+  
+Ensure you have R installed on your system.
+
+Using an IDE like RStudio is highly recommended for viewing the profile log-likelihood plots seamlessly.
+
+* Execution
+  
+Navigate to the cloned repository folder.
+
+Open the 240749_Piyush_Verma.R script in your R environment.
+
+Run the entire script. The script is completely self-contained and embeds the fort.58 dataset directly within the code, requiring no external file loading.
+
+Upon execution, the console will output the Newton-Raphson iteration details, the Maximum Likelihood Estimates (MLEs), and the 95% confidence intervals. It will also automatically generate the profile log-likelihood plot in your plot viewer.
